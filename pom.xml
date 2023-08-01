@@ -12,11 +12,11 @@
 	<properties>
 		<!-- Options: stable build based on pull requests (e.g. 15.0-PR2344), weekly (e.g. 15.0-2023w01) or official (e.g. 14.0) releases -->
 		<!--		<matsim.version>16.0-PR2509</matsim.version>-->
-		<matsim.version>11.0</matsim.version>
+		<matsim.version>13.0</matsim.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.release>17</maven.compiler.release>
+		<maven.compiler.release>14</maven.compiler.release>
 	</properties>
 
 	<repositories>

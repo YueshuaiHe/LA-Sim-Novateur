@@ -94,6 +94,7 @@ public class RunMatsim {
 						
 					}
 				}
+				controler.run();
 					}
 					
 				
@@ -111,7 +112,7 @@ public class RunMatsim {
 	public static void main(String[] args) {
 			RunMatsim r = new RunMatsim();
 			try {
-				r.run_MATSim("config.xml");  //path to the config file
+				r.run_MATSim("");  //path to the config file
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
